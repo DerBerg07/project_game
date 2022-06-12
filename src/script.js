@@ -1,4 +1,5 @@
 import Preloader from "./App/scenes/Preloader";
+import TestField from "./App/scenes/TestField";
 import * as Phaser from "phaser";
 
 const gameConfig = {
@@ -15,7 +16,8 @@ const gameConfig = {
     default: 'arcade',
   },
   scene: [
-    Preloader
+    TestField
+    
   ]
 }
 
