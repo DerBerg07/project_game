@@ -10,7 +10,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "player_1.png",
+					"filename": "heroes/test_hero/01.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"filename": "player_2.png",
+					"filename": "heroes/test_hero/02.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -57,6 +57,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:ab66b7c34d7185ad55787327f927007e:8e8c9e29803d64afb1acc60b36922e63:a759b6bbc8381ac9c472b28f589ad0d6$"
+		"smartupdate": "$TexturePacker:SmartUpdate:86d3b68e1a096f95f2bcd52884d86c4d:8e8c9e29803d64afb1acc60b36922e63:a759b6bbc8381ac9c472b28f589ad0d6$"
 	}
 }

@@ -16,7 +16,8 @@ const gameConfig = {
     default: 'arcade',
   },
   scene: [
-    TestField
+      Preloader,
+      TestField
     
   ]
 }

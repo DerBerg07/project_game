@@ -3,14 +3,18 @@ import * as Phaser from "phaser";
 //hi Oleg! are you gay?
 //no
 export default class Preloader extends Phaser.Scene {
-  constructor(config) {
-    super(config);
+  constructor() {
+    super("Preloader");
 
 
   }
 
-  create(){
+  async preload(){
+    await this.load.multiatlas("assets", "assets/assets.json", "assets")
+  }
 
+  create(){
+    this.scene.start("TestField");
   }
 
   update(time, delta) {
